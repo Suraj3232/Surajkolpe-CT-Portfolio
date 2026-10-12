@@ -1,60 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Suraj Portfolio</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suraj | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-<nav>
+  <header>
+    <nav>
+      <a href="index.html" class="logo-text">
+        Suraj <span class="logo-dot"></span>
+      </a>
 
-<h2>Suraj</h2>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="certificates.html">Certificates</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="projects.html">Projects</a></li>
-<li><a href="certificates.html">Certificates</a></li>
-<li><a href="contact.html">Contact</a></li>
-</ul>
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          <span>Open to Learning & Collaborations</span>
+        </div>
 
-</nav>
-</header>
+        <h1>Hello, I am <span class="hero-gradient-text">Suraj</span></h1>
+        <p class="hero-sub">FY Computer Science Student at MITAOE</p>
+        <p class="hero-desc">
+          Passionate about building intuitive web applications, exploring Artificial Intelligence, 
+          and turning data into actionable insights.
+        </p>
 
+        <div class="hero-actions">
+          <a href="projects.html" class="btn btn-primary">
+            <span>View Projects</span>
+            <span class="btn-icon">→</span>
+          </a>
+          <a href="contact.html" class="btn btn-secondary">
+            <span>Get In Touch</span>
+          </a>
+        </div>
 
-<section class="hero">
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h4>6+</h4>
+            <p>Projects</p>
+          </div>
+          <div class="stat-item">
+            <h4>7+</h4>
+            <p>Certifications</p>
+          </div>
+          <div class="stat-item">
+            <h4>FY</h4>
+            <p>CSE @ MITAOE</p>
+          </div>
+        </div>
+      </div>
 
-<div class="hero-text">
+      <div class="hero-img-wrapper">
+        <div class="hero-img-backdrop"></div>
+        <div class="hero-img">
+          <img src="images/profile.jpeg" alt="Suraj Profile Photo">
+        </div>
+      </div>
+    </section>
+  </main>
 
-<h1>Hello, I am Suraj</h1>
-
-<p>FY Computer Science Student at MITAOE</p>
-
-<p>Future Developer • Data Enthusiast • Problem Solver</p>
-
-<a href="projects.html">
-<button>View Projects</button>
-</a>
-
-</div>
-
-
-<div class="hero-img">
-
-<img src="images/profile.jpeg">
-
-</div>
-
-</section>
-
-<footer>
-<p>© 2026 Suraj Portfolio</p>
-</footer>
+  <footer>
+    <div class="footer-content">
+      <p>© 2026 Suraj Portfolio. Crafted with passion & code.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
